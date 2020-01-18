@@ -1,0 +1,274 @@
+.contact {
+    margin: 0 auto;
+    background-image: url(../images/contact_tablet.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 57px;
+    padding-bottom: 20px;
+
+    &__title {
+        color: #ffffff;
+        margin-bottom: 42px;
+    }
+    
+    &__info {
+        margin: 0 auto;
+
+        &-title {
+            margin: 0 auto;
+            width: 220px;
+            font-family: $second-font;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 24px;
+            color: #ffffff;
+            margin-bottom: 12px;
+        }
+
+        &-subtitle {
+            margin: 0 auto;
+            width: 278px;
+            font-family: $main-font;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 21px;
+            color: #a7a7a7;
+            margin-bottom: 38px;
+            text-align: center;
+        }
+
+        &-socials {
+            margin: 0 auto;
+            width: 155px;
+            height: 122px;
+            margin-bottom: 44px;
+        }
+
+        &-list {
+            width: 155px;
+            height: 42px;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 35px;
+
+            &-item {
+                &:first-child {
+                    .contact__info-list-link {
+                        background-color: #3b5997;
+                        background-image: url(../images/icons/icon-facebook.svg);
+                    }
+                }
+
+                &:nth-child(2) {
+                    .contact__info-list-link {
+                        background-color: #3ec2f3;
+                        background-image: url(../images/icons/icon-twitter.svg);
+                    }
+                }
+
+                &:last-child {
+                    .contact__info-list-link {
+                        background-color: #007ab9;
+                        background-image: url(../images/icons/icon-linkedin.svg);
+                    }
+                }
+            }
+
+            &-link {
+                display: block;
+                width: 42px;
+                height: 42px;
+                border-radius: 50%;
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: 50%;
+
+            }
+        }
+
+        &_phone {
+            font-family: $main-font;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 24px;
+            color: #bface2;
+            text-align: center;
+        }
+
+        &_email {
+            font-family: $main-font;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 24px;
+            color: #bface2;
+            text-align: center;
+        }
+    }
+
+    &__copyright {
+        width: 180px;
+        font-family: $main-font;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        color: #ffffff;
+    }
+}
+
+.form {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 58px;
+    
+    &-wrapper {
+        margin: 0 auto;
+        width: 270px;
+        height: 316px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 44px;
+    }
+
+    &__info-input {
+        width: 270px;
+        height: 44px;
+        background-color: #ffffff;
+        border-radius: 3px;
+        border: none;
+
+        &::placeholder {
+            font-family: $main-font;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            padding-left: 26px;
+            color: #c1c1c1;
+        }
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &__info-textarea {
+        width: 270px;
+        height:174px;
+        border-radius: 7px;
+        background-color: #ffffff;
+        border: none;
+
+        &::placeholder {
+            font-family: $main-font;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            padding: 12px 26px;
+            color: #c1c1c1;
+        }
+    }
+
+    &-button {
+        width: 170px;
+        height: 50px;
+        border-radius: 3px;
+        background-color: $blue;
+        border: none;
+        margin: 0 auto;
+        font-family: $main-font;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+}
+
+.line {
+    border-top: 1px solid #fff;
+    padding-top: 30px;
+}
+
+@media (min-width: 768px) {
+    .contact {
+        padding-top: 66px;
+        padding-bottom: 16px;
+
+        &__title {
+            margin-bottom: 75px;
+        }
+
+        &__info {
+            &-subtitle {
+                width: 420px;
+                margin-bottom: 35px;
+            }
+
+            &-socials {
+                margin-bottom: 38px;
+            }
+        }
+        
+        &__copyright {
+            width: 310px;
+        }
+    }
+
+    .form {
+        margin-bottom: 56px;
+
+        &-wrapper {
+            width: 570px;
+            height: 255px;
+            margin-bottom: 30px;
+        }
+
+        &__info {
+            &-textarea {
+                width: 570px;
+                height: 178px;
+            }
+        }
+    }
+
+    .line {
+        padding-top: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .contact {
+        background-image: url(../images/contact_desctop.png);
+
+        &__title {
+            margin-bottom: 123px;
+        }
+
+        &__wrapper {
+            width: 1145px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row-reverse;
+        }
+
+        &__info {
+            &-title {
+                margin-left: 0px;
+            }
+
+            &-subtitle {
+                text-align: left;
+            }
+
+            &-socials {
+                margin-left: 0px;
+            }
+        }
+    }
+
+    .form-button {
+        margin-right: 0px;
+    }
+}
+   
