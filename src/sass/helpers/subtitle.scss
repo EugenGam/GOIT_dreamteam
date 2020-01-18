@@ -10,7 +10,7 @@
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
-    
+    line-height: 1.556;
     font-size: 1.125rem;
     margin-bottom: 35px;
 
@@ -43,6 +43,7 @@
 
 @media (min-width: 768px) {
     .subtitle {
+        font-size: 1.75rem;
         &::before {
             left: -76px;
         }
