@@ -1,0 +1,149 @@
+.watch {
+    background-color: $blue;
+}
+
+.video__item{
+    text-align: center;
+}
+
+.video__content{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.video__content--title{
+    color: $black;
+    font-family: $second-font;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 26px;
+}
+.video__content--about{
+    padding-top: 14px;
+    color: rgb(255, 255, 255);
+    font-family: $main-font;
+    font-size: 16px;
+    width: 245px;
+    margin: 0 auto;
+}
+
+
+.video__item--svg{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(0, 152, 205);
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.video__svg{
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+.operations{
+    width: 177px;
+    display: flex; 
+    justify-content: space-around;   
+}
+
+.operations{
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.main__video:focus{
+    outline: none;
+    border-radius: 10px;
+}
+
+@media (min-width: 768px){
+    .container{
+        width: 708px;
+        margin: 0 auto;
+    }
+
+    .video__content{
+        padding-top: 108px;    
+    }
+    
+    .video__content--title{
+        font-size: 28px;
+    }
+
+    .video__content--about{
+        width: 540px;
+        line-height: 26px;
+    }
+
+    .main__video{
+        width: 499px;
+        height: 336px;
+        padding-top: 55px;
+        margin-bottom: 107px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+      width: 1200px;
+      margin: 0 auto;
+    }
+
+    .video__content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .main__video{
+        padding-top: 0;
+    }
+
+    .video__item{
+        text-align: left;
+    }
+
+    .video__content--title{
+        padding-top: 102px;
+    }
+
+    .operations{
+        margin: 0;
+    }
+
+    .video__content{
+        padding: 0;
+    }
+
+    .main__video{
+        padding-top: 35px;
+        width: 489px;
+        height: 374px;
+    }
+
+    .text__items{
+        padding-left: 8px;
+    }
+
+    .video__content--about{
+        padding-left: 3px;
+        width: 541px;
+    }
+
+
+
+.operations {
+    width: 155px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 22px;
+}
+  }
+
+
+
+
+
+
+
