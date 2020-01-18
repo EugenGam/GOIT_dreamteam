@@ -1,0 +1,122 @@
+.keyfet {
+    padding-top: 60px;
+    padding-bottom: 30px;
+
+&__img {
+    position: relative;
+    display: none;
+    
+}
+
+&__subtitle {
+    font-family: $main-font;
+    color: $bleck;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 1.625;
+}
+
+
+
+&__item {
+    margin-bottom: 30px;
+    padding-left: 65px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 28px 32px;
+} 
+
+
+
+&__title {
+    font-family: $second-font;
+    font-size: 1.125rem;
+    color: $bleck;
+    text-align: left;
+    margin-bottom: 22px;
+}
+
+&__text {
+    font-family: $main-font;
+    font-size: 0.8125rem;
+    color: $bleck;
+    text-align: left;
+    line-height: 1.846;
+}
+
+}
+
+.board {
+    background-image: url(../images/board.png);
+}
+
+.hub {
+    background-image: url(../images/icon-hub.svg);
+    
+}
+
+.thumb {background-image: url(../images/icon-thumb.svg);}
+
+.star {background-image: url(../images/icon-star.svg);}
+
+.bell {background-image: url(../images/icon-bell.svg);}
+
+.share {background-image: url(../images/icon-share.svg);}
+
+@media (min-width: 768px) {
+
+    .keyfet {
+        padding-top: 120px;
+        padding-bottom: 100px;
+
+        &__subtitle {
+            font-size: 1.125rem;
+            line-height: 2;
+        }
+
+        &__item {
+            width: 310px;
+            margin-bottom: 100px;
+    
+            &:last-child {
+                margin-bottom: 0px;
+            
+            }
+        }
+    }
+
+
+    .keyfet-list__container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    
+
+    
+}
+
+@media (min-width: 1200px) {
+    .keyfet {
+        padding-bottom: 32px;
+
+    &__item {
+        width: 337px;
+        
+    }
+
+    &__img {
+        position: relative;
+        top: -68px;
+        display: block;
+    
+
+    }
+
+    &__subtitle {
+        font-size: 1rem;
+        margin-bottom: 144px;
+    }
+    }
+}
