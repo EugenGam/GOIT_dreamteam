@@ -12,31 +12,22 @@
     text-align: center;
     line-height: 1.556;
     font-size: 1.125rem;
-    margin-bottom: 35px;
+    margin-bottom: 2.1875rem;
 
-    &::after {
+    &::after, &::before {
         position: absolute;
-        right: -70px;
+        right: -4.375rem;
         top: 50%;
         transform: translateY(-50%);
         content: '';
         display: block;
         background-color: #babdc1;
-        width: 60px;
-        height: 1px;
+        width: 3.75rem;
+        height: 0.0625rem;
     }
     
     &::before {
-        position: absolute;
-        left: -70px;
-        top: 50%;
-        transform: translateY(50%);
-        content: '';
-        display: block;
-        background-color: #babdc1;
-        width: 60px;
-        height: 1px;
-        
+        left: -4.375rem;
     }
     
 }
@@ -45,10 +36,10 @@
     .subtitle {
         font-size: 1.75rem;
         &::before {
-            left: -76px;
+            left: -4.75rem;
         }
         &::after {
-            right: -76px;
+            right: -4.75rem;
         }
     }
 }

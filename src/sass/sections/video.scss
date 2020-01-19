@@ -1,7 +1,7 @@
 .watch {
     background-color: $blue;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
 }
 
 .video__item{
@@ -10,17 +10,17 @@
 
 .operations{
     display: flex;
-    width: 156px;
+    width: 9.75rem;
     justify-content: space-between;
     margin: 0 auto;
-    margin-bottom: 38px;
+    margin-bottom: 2.375rem;
 }
 .operation__android{
     display: flex;
     align-items: center;
-    height: 70px;
-    width: 70px;
-    border-radius: 50px;
+    height: 4.375rem;
+    width: 4.375rem;
+    border-radius: 50%;
     background-color: #0098cd;
     background-image: url("../images/icons/icon-android.svg");
     border-style: none;
@@ -32,9 +32,9 @@
 .operation__ios{
     display: flex;
     align-items: center;
-    height: 70px;
-    width: 70px;
-    border-radius: 50px;
+    height: 4.375rem;
+    width: 4.375rem;
+    border-radius: 50%;
     background-color: #0098cd;
     background-image: url("../images/icons/icon-apple.svg");
     border-style: none;
@@ -46,26 +46,26 @@
 .video__content--title{
     color: $bleck;
     font-family: $second-font;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: bold;
-    line-height: 26px;
-    margin-bottom: 14px;
+    line-height: 1.625rem;
+    margin-bottom: 0.875rem;
 }
 .video__content--about{
     color: #ffffff;
     font-family: $main-font;
     line-height: 1.625;
-    font-size: 16px;
-    width: 245px;
+    font-size: 1rem;
+    width: 15.3125rem;
     margin: 0 auto;
     line-height: 1.625;
-    margin-bottom: 15px;
+    margin-bottom: 0.9375rem;
 }
 
 
 .video__item--svg{
-    height: 70px;
-    width: 70px;
+    height: 4.375rem;
+    width: 4.375rem;
     background-color: rgb(0, 152, 205);
     border-radius: 40px;
     cursor: pointer;
@@ -86,25 +86,25 @@
 @media (min-width: 768px){
 
     .video__content--title{
-        font-size: 28px;
+        font-size: 1.75rem;
     }
 
     .video__content--about{
-        width: 540px;
-        line-height: 26px;
+        width: 33.75rem;
+        line-height: 1.625rem;
     }
 
     .main__video{
-        width: 450px;
-        height: 255px;
+        width: 28.125rem;
+        height: 15.9375rem;
 
     }
 }
 
 @media (min-width: 1200px) {
         .watch{
-        padding-top: 70px;
-        padding-bottom: 70px;
+        padding-top: 4.375rem;
+        padding-bottom: 4.375rem;
     }
 
     .video__content{
@@ -119,20 +119,20 @@
     }
 
     .main__video{
-        width: 559px;
-        height: 314px;
+        width: 34.9375rem;
+        height: 19.625rem;
     }
 
     .operations{
         margin: 0;
     }
     .video__content--title{
-        padding-top: 36px;
+        padding-top: 2.25rem;
     }
 
     .video__content--about{
-        padding-left: 3px;
-        width: 541px;
+        padding-left: 0.1875rem;
+        width: 33.8125rem;
     }
 }
 

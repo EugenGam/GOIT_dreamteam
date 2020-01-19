@@ -91,7 +91,7 @@
         font-size: 1rem;
         font-weight: 400;
         line-height: 1.5rem;
-        width: 224px;
+        width: 14rem;
         color: #ffffff;
         text-align: center;
         margin: 0 auto;
@@ -129,7 +129,7 @@
     }
 }
 
-@media (min-width: 48rem) {
+@media (min-width: 768px) {
     .team {
         padding-top: 6.4375rem;
 
@@ -156,7 +156,7 @@
     }
 }
 
-@media (min-width: 75rem) {
+@media (min-width: 1200px) {
     .team {
         padding-top: 5.625rem;
 
