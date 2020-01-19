@@ -1,54 +1,29 @@
 .video {
     background-color: $blue;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
+    padding-top: 70px;
+    padding-bottom: 70px;
 
-.video__item{
+
+    &__item{
     text-align: center;
-}
+    }
 
-.operations{
+    &__content{
     display: flex;
-    width: 156px;
-    justify-content: space-between;
-    margin: 0 auto;
-    margin-bottom: 38px;
-
-    &__android{
-    height: 70px;
-    width: 70px;
-    border-radius: 50px;
-    background-color: #0098cd;
-    background-image: url("../images/icons/icon-android.svg");
-    border-style: none;
-    background-size: 50%;
-    background-repeat: no-repeat;
-    background-position: center;
+    align-items: center;
+    flex-direction: column;
     }
 
-    &__ios{
-    height: 70px;
-    width: 70px;
-    border-radius: 50px;
-    background-color: #0098cd;
-    background-image: url("../images/icons/icon-apple.svg");
-    border-style: none;
-    background-size: 50%;
-    background-repeat: no-repeat;
-    background-position: center;
-    }
-}
-
-.video__content--title{
+    &__content--title{
     color: $black;
     font-family: $second-font;
     font-size: 18px;
     font-weight: bold;
     line-height: 26px;
     margin-bottom: 14px;
-}
-.video__content--about{
+    }
+
+    &__content--about{
     color: rgb(255, 255, 255);
     font-family: $main-font;
     font-size: 16px;
@@ -56,36 +31,58 @@
     margin: 0 auto;
     line-height: 1.625;
     margin-bottom: 15px;
+    }
 }
+.operations{
+    display: flex;
+    width: 156px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 38px;
+
+    &__button{
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    background-color: #0098cd;
+    border-style: none;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
 
 
+    &__item:first-child .operations__button{
+        background-image: url("../images/icons/icon-android.svg");
+    }
 
-
-
-.main__video:focus{
-    outline: none;
+    &__item:last-child .operations__button{
+        background-image: url("../images/icons/icon-apple.svg")
+    }   
 }
 
 .main__video{
     border-radius: 5px;
+    outline: none;
 }
 
 @media (min-width: 768px){
 
-    .video__content--title{
+    .video{
+    &__content--title{
         font-size: 28px;
         font-family: $main-font;
     }
 
-    .video__content--about{
+    &__content--about{
         width: 540px;
         line-height: 26px;
     }
 
-    .video__content--title{
+    &__content--title{
         font-family: $main-font;
     }
-
+    }
     .main__video{
         width: 450px;
         height: 255px;
@@ -94,48 +91,44 @@
 }
 
 @media (min-width: 1200px) {
-    .container {
-      width: 1200px;
-      margin: 0 auto;
-    }
 
-    .watch{
+    .video{
         padding-top: 70px;
         padding-bottom: 70px;
-    }
+    
 
-    .video__content{
-        display: flex;
+    &__content{
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
     }
     
+    &__item{
+        text-align: left;
+    }
+
+    &__content--title{
+        font-family: $second-font;
+    }
+    
+    &__content--about{
+        width: 541px;
+    }
+    }
     .text__items{
         padding-left: 27px;
     }
 
-    .video__item{
-        text-align: left;
-    }
-
-    .video__content--title{
-        font-family: $second-font;
-    }
 
     .main__video{
-        width: 559px;
-        height: 314px;
+        width: 501px;
+        height: 284px;
     }
 
     .operations{
         margin: 0;
     }
 
-    .video__content--about{
-        padding-left: 3px;
-        width: 541px;
-    }
 }
 
 
