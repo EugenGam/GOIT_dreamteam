@@ -7,21 +7,21 @@ let openModal = (e) => {
     let target = e.target;
     
     if (modalMenu.classList.contains('mobile-site-navigation_active')) {
-        burgerBtn.style.backgroundImage = "url('../images/icon-burger.png')";
+        burgerBtn.style.backgroundImage = "url('./images/icon-burger.png')";
         modalMenu.classList.toggle('mobile-site-navigation_active');
     } else {
         modalMenu.classList.toggle('mobile-site-navigation_active');
-        burgerBtn.style.backgroundImage = "url('../images/icon-burger-closed.png')";
+        burgerBtn.style.backgroundImage = "url('./images/icon-burger-closed.png')";
     }
 }
 
 let closeModal = () => {
     if (modalMenu.classList.contains('mobile-site-navigation_active')) {
-        burgerBtn.style.backgroundImage = "url('../images/icon-burger.png')";
+        burgerBtn.style.backgroundImage = "url('./images/icon-burger.png')";
         modalMenu.classList.toggle('mobile-site-navigation_active');
     } else {
         modalMenu.classList.toggle('mobile-site-navigation_active');
-        burgerBtn.style.backgroundImage = "url('../images/icon-burger-closed.png')";
+        burgerBtn.style.backgroundImage = "url('./images/icon-burger-closed.png')";
     }
 }
 
