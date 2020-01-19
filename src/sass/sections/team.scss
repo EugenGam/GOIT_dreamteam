@@ -21,6 +21,7 @@
         &-item {
             position: relative;
             margin-bottom: 2.875rem;
+            
 
             &:last-child {
                 margin-bottom: 0rem;
@@ -70,6 +71,7 @@
     background: #32bfa3d9;
     opacity: 0;
     visibility: hidden;
+    @extend %animation;
 
     &__title {
         font-family: $main-font;
