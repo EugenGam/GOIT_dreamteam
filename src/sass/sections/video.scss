@@ -33,6 +33,7 @@
     margin-bottom: 15px;
     }
 }
+
 .operations{
     display: flex;
     width: 156px;
@@ -43,7 +44,7 @@
     &__button{
     height: 70px;
     width: 70px;
-    border-radius: 50px;
+    border-radius: 50%;
     background-color: #0098cd;
     border-style: none;
     background-size: 50%;
@@ -51,6 +52,11 @@
     background-position: center;
     }
 
+    &__button:hover{
+        box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9);
+        transition: 0.2s;
+        background-size: 45%;
+    }
 
     &__item:first-child .operations__button{
         background-image: url("../images/icons/icon-android.svg");
