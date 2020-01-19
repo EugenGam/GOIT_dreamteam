@@ -52,7 +52,7 @@
     margin-bottom: 14px;
 }
 .video__content--about{
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     font-family: $main-font;
     line-height: 1.625;
     font-size: 16px;
@@ -102,12 +102,7 @@
 }
 
 @media (min-width: 1200px) {
-    .container {
-      width: 1200px;
-      margin: 0 auto;
-    }
-
-    .watch{
+        .watch{
         padding-top: 70px;
         padding-bottom: 70px;
     }
