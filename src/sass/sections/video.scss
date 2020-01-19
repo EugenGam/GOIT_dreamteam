@@ -16,6 +16,8 @@
     margin-bottom: 38px;
 }
 .operation__android{
+    display: flex;
+    align-items: center;
     height: 70px;
     width: 70px;
     border-radius: 50px;
@@ -28,6 +30,8 @@
 }
 
 .operation__ios{
+    display: flex;
+    align-items: center;
     height: 70px;
     width: 70px;
     border-radius: 50px;

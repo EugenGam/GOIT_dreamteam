@@ -101,6 +101,8 @@
 }
 
 .header__btn {
+  display: flex;
+  align-items: center;
   font-family: $main-font;
   font-size: 1.25rem;
   line-height: 2.25rem;

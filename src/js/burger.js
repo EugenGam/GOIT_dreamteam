@@ -1,7 +1,7 @@
 'use strict';
 const burgerBtn = document.querySelector('.mobile-navigation-btn');
 const modalMenu = document.querySelector('.mobile-site-navigation');
-const modalAnchor = [...document.querySelectorAll('.site-navigation__link')];
+const modalAnchor = [...document.querySelectorAll('.mobile-site-navigation .site-navigation__link')];
 
 let openModal = (e) => {
     let target = e.target;
