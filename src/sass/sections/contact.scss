@@ -166,13 +166,15 @@
         border-radius: 7px;
         background-color: #ffffff;
         border: none;
+        padding: 12px 26px;
+        color: #232323;
+        resize: none;
 
         &::placeholder {
             font-family: $main-font;
             font-size: 16px;
             font-weight: 400;
             line-height: 24px;
-            padding: 12px 26px;
             color: #c1c1c1;
         }
     }
